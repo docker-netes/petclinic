@@ -1,4 +1,4 @@
-mvn deploy -s settings.xml #ok
+mvn deploy -s settings.xml #ok do
 gradle build -Pmaven.settings.location=$(Agent.TempDirectory)/settings.xml
 
 edit build.gradle
